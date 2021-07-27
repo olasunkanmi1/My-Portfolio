@@ -1,0 +1,266 @@
+@media screen and (max-height: 300px) {
+    #home p {
+        line-height: 1;
+        font-size: 1rem;
+    }
+
+    #home .hire {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-height: 340px) {
+    #home {
+        line-height: 0;
+        padding: 0 1rem;
+    }
+
+    #home .hire {
+        margin-top: .5rem;
+        padding: 1rem 2em;
+    }
+}
+
+@media screen and (max-height: 420px) {
+    #home {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 1rem 1rem;
+    }
+
+    #home .hire {
+        padding: 1rem 2em;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    footer {
+        padding: 0 .5rem;
+        font-size: .7rem;
+    }
+
+    footer span {
+        font-size: .8rem;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    #portfolio .container .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5px 0;
+        text-decoration: none;
+    }
+
+    #portfolio .container .project .name {
+        position: initial;
+    }
+
+    #portfolio .container .project .on-off {
+        position: initial;
+    }
+
+}
+
+@media screen and (max-width: 393px) {
+    #contact .others .container {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #skills .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    #skills .container .tools > div:last-child {
+        margin-bottom: 0;
+    }
+
+    #skills .container .dvc {
+        height: 100%;
+    }
+
+    /* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border-bottom: none;
+}
+
+.nav .menu-toggle {
+    display: none;
+}
+
+.nav-list {
+    flex-direction: row;
+    list-style: none;
+    position: initial;
+    padding: 0 0;
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    justify-content: flex-end;
+    transform: translateX(0);
+    border-bottom-right-radius: 0;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;
+    background: none;
+    box-shadow: none;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0;
+    transition: color .5s;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+    border-bottom: none;
+}
+
+.nav-link:hover{
+    border-radius: 0;
+}
+
+.nav-link--active {
+    border-bottom: 4px solid #fff;
+}
+
+#about {
+    padding: 2rem;
+}
+
+#skills {
+    padding: 2rem;
+}
+
+#portfolio {
+    padding: 2rem;
+}
+
+#portfolio .container .project {
+    height: 20rem;
+}
+
+#contact {
+    padding: 2rem;
+    position: relative;
+}
+#contact form {
+    padding: 1rem 5rem;
+}
+
+#contact .others {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr ); 
+    grid-gap: 3rem;  
+}
+}
+
+@media screen and (min-width: 800px) {
+    #portfolio .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr );
+        grid-gap: 15px;
+    }
+
+    #contact form {
+    padding: 1rem 10rem;
+    }
+}
+
+
+
+
+@media screen and (min-width: 960px) {
+    /* ABOUT */
+    #about  .container #row {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    #about .container #dp {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr );
+        padding: 2rem 6rem 0;
+    }
+
+    /* SKILLS */
+    /* #skills .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    } */
+
+    .nav {
+        padding: 0 3rem;
+    }
+
+    #about {
+        padding: 3rem;
+    }
+    
+    #skills {
+        padding: 3rem;
+    }
+    
+    #portfolio {
+        padding: 3rem;
+    }
+    
+    #portfolio .container .project {
+        height: 20rem;
+    }
+    
+    #contact {
+        padding: 3rem;
+    }
+    #contact form {
+        padding: 1rem 20rem;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+    #about {
+        padding: 3rem 6rem;
+    }
+    
+    #skills {
+        padding: 3rem 6rem;
+    }
+    
+    #portfolio {
+        padding: 3rem 6rem;
+    }
+    
+    #portfolio .container .project {
+        height: 20rem;
+    }
+    
+    #contact {
+        padding: 3rem 6rem;
+    }
+    #contact form {
+        padding: 1rem 25rem;
+    }
+}
