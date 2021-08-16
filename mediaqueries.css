@@ -119,6 +119,7 @@
     height: 100%;
     background: none;
     box-shadow: none;
+    margin-right: 50px;
 }
 
 .nav-link {
@@ -162,7 +163,7 @@
 }
 
 #contact {
-    padding: 2rem;
+    padding: 4rem 2rem 2rem 2rem;
     position: relative;
 }
 #contact form {
@@ -174,6 +175,17 @@
     grid-template-columns: repeat(2, 1fr ); 
     grid-gap: 3rem;  
 }
+}
+
+@media screen and (min-width: 750px) {
+    #contact::before {
+        height: 145px;
+        top: -85px;
+    }
+    #contact::after {
+        height: 145px;
+        top: -85px;
+    }
 }
 
 @media screen and (min-width: 800px) {
@@ -189,9 +201,15 @@
 }
 
 
-
-
 @media screen and (min-width: 960px) {
+    #home::before {
+        height: 125px;
+        bottom: -45px;
+    }
+    #home::after {
+        height: 125px;
+        bottom: -45px;
+    }
     /* ABOUT */
     #about  .container #row {
         display: grid;
@@ -218,7 +236,7 @@
     #about {
         padding: 3rem;
     }
-    
+
     #skills {
         padding: 3rem;
     }
@@ -240,7 +258,23 @@
 
 }
 
+@media screen and (min-width: 1000px) {
+    #home::before {
+        height: 145px;
+        bottom: -75px;
+    }
+    #home::after {
+        height: 145px;
+        bottom: -75px;
+    }
+}
+
 @media screen and (min-width: 1100px) {
+
+    .nav {
+        padding: 0 6rem;
+    }
+
     #about {
         padding: 3rem 6rem;
     }
@@ -258,9 +292,42 @@
     }
     
     #contact {
-        padding: 3rem 6rem;
+        padding: 6rem 6rem 2rem 6rem;;
     }
     #contact form {
         padding: 1rem 25rem;
+    }
+
+    #contact::before {
+        height: 205px;
+        top: -135px;
+    }
+    #contact::after {
+        height: 205px;
+        top: -135px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #home::before {
+        height: 185px;
+        bottom: -105px;
+    }
+    #home::after {
+        height: 185px;
+        bottom: -105px;
+    }
+
+    #contact {
+        padding: 9rem 6rem 2rem 6rem;;
+    }
+
+    #contact::before {
+        height: 225px;
+        top: -105px;
+    }
+    #contact::after {
+        height: 225px;
+        top: -105px;
     }
 }

@@ -171,8 +171,8 @@ h1 {
   position: absolute;
   content: "";
   width: 50%;
-  height: 125px;
-  bottom: -65px;
+  height: 105px;
+  bottom: -45px;
   left: 0;
   background-color: #fff;
   transform: skewY(-10deg);
@@ -181,8 +181,8 @@ h1 {
   position: absolute;
   content: "";
   width: 50%;
-  height: 125px;
-  bottom: -65px;
+  height: 105px;
+  bottom: -45px;
   right: 0;
   background-color: #fff;
   transform: skewY(10deg);
@@ -194,11 +194,11 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: midnightblue;
-  height: 3rem;
+  height: 75px;
   width: 100vw;
   max-width: 100%;
-  padding: 0 1rem;
-  position: sticky;
+  padding: 0 1.5rem;
+  position: fixed;
   top: 0;
   border-bottom: 3px solid #ff4d37;
   z-index: 5000;
@@ -266,17 +266,17 @@ h1 {
 
 .nav-list {
   display: flex;
+  flex-direction: column;
   align-items: center;
   list-style: none;
   position: absolute;
-  top: 2.8rem;
-  left: 0;
-  width: 100vw;
+  top: 70px;
+  right: 0;
   overflow-x: hidden;
+  width: 100vw;
   height: 17rem;
   padding: 1rem 0;
   background-color: midnightblue;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   transform: translateX(-100%);
@@ -291,8 +291,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  height: 15%;
 }
 
 .nav-link {
@@ -309,6 +307,10 @@ h1 {
   width: 100%;
   transition: 0.5s;
   z-index: 5000;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
 }
 
 .nav-link:hover {
@@ -616,13 +618,17 @@ h1 {
   background-image: url(./images/pf.jpg);
 }
 
+#portfolio .container .howbodi {
+  background-image: url(./images/howbodi.png);
+}
+
 #portfolio .container .propertyfinder {
   background-image: url(./images/property.jpg);
 }
 
-#portfolio .container .movie {
+/* #portfolio .container .movie {
   background-image: url(./images/movie.jpeg);
-}
+} */
 
 #portfolio .container .github {
   background-image: url(./images/github.jpeg);
@@ -752,8 +758,8 @@ form #message {
   position: absolute;
   content: "";
   width: 50%;
-  height: 125px;
-  top: -65px;
+  height: 85px;
+  top: -35px;
   left: 0;
   background-color: #eee;
   transform: skewY(10deg);
@@ -762,8 +768,8 @@ form #message {
   position: absolute;
   content: "";
   width: 50%;
-  height: 125px;
-  top: -65px;
+  height: 85px;
+  top: -35px;
   right: 0;
   background-color: #eee;
   transform: skewY(-10deg);
