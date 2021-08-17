@@ -618,6 +618,10 @@ h1 {
   background-image: url(./images/pf.jpg);
 }
 
+#portfolio .container .cashalat {
+  background-image: url(./images/cashalat.png);
+}
+
 #portfolio .container .howbodi {
   background-image: url(./images/howbodi.png);
 }
@@ -626,9 +630,9 @@ h1 {
   background-image: url(./images/property.jpg);
 }
 
-/* #portfolio .container .movie {
+#portfolio .container .movie {
   background-image: url(./images/movie.jpeg);
-} */
+}
 
 #portfolio .container .github {
   background-image: url(./images/github.jpeg);
