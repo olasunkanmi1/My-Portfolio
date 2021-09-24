@@ -494,11 +494,11 @@ h1 {
 }
 
 #skills .container .tools > div:nth-child(3):before {
-  width: 60%;
+  width: 70%;
 }
 
 #skills .container .tools > div:nth-child(4):before {
-  width: 60%;
+  width: 70%;
 }
 
 #skills .container .tools > div:nth-child(5):before {
@@ -510,7 +510,7 @@ h1 {
 }
 
 #skills .container .tools > div:nth-child(7):before {
-  width: 80%;
+  width: 70%;
 }
 
 #skills .container .tools > div span {
