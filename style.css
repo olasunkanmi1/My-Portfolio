@@ -618,6 +618,10 @@ h1 {
   background-image: url(./images/pf.jpg);
 }
 
+#portfolio .container .olastore {
+  background-image: url(./images/olastore.png);
+}
+
 #portfolio .container .cashalat {
   background-image: url(./images/cashalat.png);
 }
